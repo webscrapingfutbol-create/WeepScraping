@@ -1,0 +1,15 @@
+{
+  "name": "weepscraping",
+  "version": "1.0.0",
+  "description": "Vista en vivo de partidos y cuotas de SofaScore por equipo",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "server": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "got-scraping": "^4.2.1"
+  }
+}
